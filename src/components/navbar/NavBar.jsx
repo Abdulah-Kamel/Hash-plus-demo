@@ -1,6 +1,6 @@
 import React from 'react';
 import { Menu } from 'lucide-react';
-import { navLinks } from '../data/navigationData';
+import { navLinks } from '../../data/navigationData';
 import NavLogo from './NavLogo';
 import NavActions from './NavActions';
 import DesktopMenu from './DesktopMenu';

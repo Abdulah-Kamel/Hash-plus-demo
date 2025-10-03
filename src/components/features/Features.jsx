@@ -1,7 +1,7 @@
 import React from 'react';
-import { featuresData } from '../data/featuresData';
+import { featuresData } from '../../data/featuresData';
 import FeatureItem from './FeatureItem';
-import chooseUs from "../assets/chooseus.svg";
+import chooseUs from "../../assets/chooseus.svg";
 
 const Features = () => {
     return (

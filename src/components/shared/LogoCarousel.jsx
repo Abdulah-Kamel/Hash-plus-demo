@@ -1,5 +1,5 @@
 import React from 'react';
-import { partnersData } from '../data/partnersData';
+import { partnersData } from '../../data/partnersData';
 
 const LogoCarousel = () => {
     return (

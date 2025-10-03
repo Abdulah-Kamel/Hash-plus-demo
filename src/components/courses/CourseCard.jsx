@@ -1,8 +1,8 @@
 import React from 'react';
 import { Clock, BookOpenText } from 'lucide-react';
-import Rating from './Rating';
-import courseProfile from "../assets/courseProfile.png";
-import saRyal from "../assets/saRyal.svg";
+import Rating from '../shared/Rating';
+import courseProfile from "../../assets/courseProfile.png";
+import saRyal from "../../assets/saRyal.svg";
 
 const CourseCard = ({ course }) => {
   return (

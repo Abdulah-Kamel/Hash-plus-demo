@@ -1,10 +1,10 @@
 import React from 'react';
-import {NavBar} from "../components/NavBar.jsx";
-import Hero from "../components/Hero.jsx";
-import LogoCarousel from '../components/LogoCarousel.jsx';
-import Features from '../components/Features.jsx';
-import Courses from '../components/Courses.jsx';
-import Categories from "../components/Categories.jsx";
+import { NavBar } from "../components/navbar";
+import Hero from "../components/hero";
+import { LogoCarousel } from '../components/shared';
+import Features from '../components/features';
+import Courses from '../components/courses';
+import Categories from "../components/categories";
 
 const Home = () => {
     return (

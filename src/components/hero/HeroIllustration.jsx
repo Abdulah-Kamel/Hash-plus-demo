@@ -1,6 +1,6 @@
 import React from 'react';
 import { Video } from 'lucide-react';
-import heroPcIcon from "../assets/hero-pc.svg";
+import heroPcIcon from "../../assets/hero-pc.svg";
 import SuccessGauge from './SuccessGauge';
 import StudentsCard from './StudentsCard';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { categoriesData } from '../data/categoriesData';
+import { categoriesData } from '../../data/categoriesData';
 import CategoryCard from './CategoryCard';
 import CategoryHeader from './CategoryHeader';
 

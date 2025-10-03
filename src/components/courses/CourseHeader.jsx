@@ -1,5 +1,5 @@
 import React from 'react';
-import courses_arrow from "../assets/courses_arrow.svg";
+import courses_arrow from "../../assets/courses_arrow.svg";
 
 const CourseHeader = () => {
   return (

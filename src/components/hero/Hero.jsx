@@ -1,4 +1,5 @@
-import { heroStats, studentProfiles, successPercentage } from '../data/heroData';
+import React from 'react';
+import { heroStats, studentProfiles, successPercentage } from '../../data/heroData';
 import HeroContent from './HeroContent';
 import HeroIllustration from './HeroIllustration';
 

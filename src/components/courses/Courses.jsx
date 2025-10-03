@@ -1,5 +1,5 @@
 import React from 'react';
-import { coursesData } from '../data/coursesData';
+import { coursesData } from '../../data/coursesData';
 import CourseCard from './CourseCard';
 import CourseHeader from './CourseHeader';
 import CourseTabs from './CourseTabs';
