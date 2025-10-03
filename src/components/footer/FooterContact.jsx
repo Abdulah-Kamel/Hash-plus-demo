@@ -26,7 +26,7 @@ const FooterContact = ({ contact, social }) => {
           <a
             key={item.id}
             href={item.href}
-            className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary hover:text-primary transition-colors"
+            className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center  hover:bg-primary hover:text-white hover:border-primary transition-colors"
             aria-label={item.name}
           >
             {getSocialIcon(item.icon)}
