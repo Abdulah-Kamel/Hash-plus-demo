@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;700&display=swap');
+
+/* Define custom Tailwind v4 tokens */
+@theme {
+  --color-primary: #6e82f4;
+  --color-secondary: #BC6CEF;
+  --color-tertiary: #34E3BC;
+  --color-qusecondary: #526279;
+  /* Map Tailwind's font-sans to Alexandria */
+  --font-sans: "Alexandria", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body{
+    background-color: #fff;
+}
