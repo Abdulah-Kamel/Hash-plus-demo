@@ -5,6 +5,12 @@ import { LogoCarousel } from '../components/shared';
 import Features from '../components/features';
 import Courses from '../components/courses';
 import Categories from "../components/categories";
+import Growth from "../components/growth";
+import Testimonials from "../components/testimonials";
+import Faq from "../components/faq";
+import OnlineCourses from "../components/online-courses";
+import Cta from "../components/cta";
+import Footer from "../components/footer";
 
 const Home = () => {
     return (
@@ -15,6 +21,12 @@ const Home = () => {
             <Features />
             <Courses />
             <Categories/>
+            <Growth />
+            <Testimonials />
+            <Faq />
+            <OnlineCourses />
+            <Cta />
+            <Footer />
         </div>
     );
 };
