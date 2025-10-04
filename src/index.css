@@ -15,3 +15,26 @@
 body{
     background-color: #fff;
 }
+
+.progress-circle{
+    width: 40px;
+    height: 40px;
+    border: 5px solid #6E82F41A;
+    border-radius: 50%;
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        bottom: -5px;
+        right: -5px;
+        width: calc(100% + 10px);
+        height: calc(100% + 10px);
+        border: 5px solid transparent;
+        border-top-color: var(--color-primary);
+        border-left-color: var(--color-primary);
+        border-radius: 50%;
+        transform: rotate(135deg);
+}
+}

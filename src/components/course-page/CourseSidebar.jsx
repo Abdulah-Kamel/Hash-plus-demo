@@ -13,7 +13,7 @@ const CourseSidebar = ({ data }) => {
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-6 sticky top-24">
+    <div className=" p-6 sticky top-24">
       <div className="text-right mb-6">
         <h2 className="text-2xl font-bold text-gray-900 mb-2">{data.title}</h2>
         <p className="text-gray-600">{data.subtitle}</p>
@@ -25,7 +25,7 @@ const CourseSidebar = ({ data }) => {
             {/* Section Header */}
             <button
               onClick={() => toggleSection(section.id)}
-              className="w-full p-4 flex items-center justify-between hover:bg-gray-50 transition-colors"
+              className="w-full p-4 flex items-center justify-between bg-[#F5F5F5] hover:bg-gray-50 transition-colors"
             >
               <ChevronDown
                 className={`w-5 h-5 text-gray-600 transition-transform ${

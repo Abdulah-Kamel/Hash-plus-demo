@@ -4,11 +4,9 @@ export const courseHeroData = {
   title: 'دورة JavaScript',
   video: courseVideo,
   tabs: [
-    { id: 1, label: 'الملخص', active: true },
-    { id: 2, label: 'المعلم', active: false },
-    { id: 3, label: 'التقييمات', active: false },
-    { id: 4, label: 'الملحقات', active: false },
-    { id: 5, label: 'مجتمع الدورة', active: false },
+    { id: 1, label: 'تقدمك', icon: 'progress', active: false },
+    { id: 2, label: 'قيم الدورة', icon: 'star', active: false },
+    { id: 3, label: 'شارك الدورة', icon: 'share', active: false },
   ],
   description: {
     title: 'وصف الدورة',
