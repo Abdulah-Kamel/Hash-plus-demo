@@ -2,11 +2,16 @@ export const navLinks = [
   {
     id: 1,
     label: 'الرئيسية',
-    href: '#',
+    href: '/',
     isActive: true,
   },
   {
     id: 2,
+    label: 'الدورات',
+    href: '/course',
+  },
+  {
+    id: 3,
     label: 'التعليم',
     href: '#',
     hasDropdown: true,
@@ -17,7 +22,7 @@ export const navLinks = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     label: 'المجتمع',
     href: '#',
     hasDropdown: true,
@@ -28,12 +33,12 @@ export const navLinks = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     label: 'المركز الاعلامى',
     href: '#',
   },
   {
-    id: 5,
+    id: 6,
     label: 'المقالات',
     href: '#',
   },
