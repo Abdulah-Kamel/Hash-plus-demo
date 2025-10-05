@@ -3,7 +3,7 @@ import { Play } from 'lucide-react';
 
 const CourseVideo = ({ video }) => {
   return (
-    <div className="relative  mx-auto rounded-xl overflow-hidden mb-4 w-full max-w-[841px] max-h-[487]">
+    <div className="relative  mx-auto rounded-xl overflow-hidden mb-4 w-full max-w-[841px] max-h-[470px]">
       <img
         src={video}
         alt="Course video"

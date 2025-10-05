@@ -34,15 +34,15 @@ const Course = () => {
                 </div>
             </div>
             <div className="mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2">
+                <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
 
-                {/* Main Content - 2 columns */}
-              <div className="lg:col-span-1">
+                {/* Main Content - 3 parts (60%) */}
+              <div className="lg:col-span-3">
                 <CourseHero data={courseHeroData} />
               </div>
               
-              {/* Sidebar - 1 column */}
-              <div className="lg:col-span-1">
+              {/* Sidebar - 2 parts (40%) */}
+              <div className="lg:col-span-2">
                 <CourseSidebar data={courseSidebarData} />
               </div>
             </div>
