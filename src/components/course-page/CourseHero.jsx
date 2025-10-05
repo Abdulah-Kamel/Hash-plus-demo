@@ -9,7 +9,7 @@ import CourseStats from './CourseStats';
 const CourseHero = ({ data }) => {
   return (
     <div className="">
-      <div className="px-4 lg:px-12 py-8">
+      <div className="px-2 lg:px-4 py-4">
         <div className="mx-auto">
           <CourseVideo video={data.video} />
           <CourseTabs />

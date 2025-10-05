@@ -3,15 +3,18 @@ import { Play } from 'lucide-react';
 
 const CourseVideo = ({ video }) => {
   return (
-    <div className="relative bg-black rounded-2xl overflow-hidden mb-8 aspect-video">
+    <div className="relative  mx-auto rounded-xl overflow-hidden mb-4 w-full max-w-[841px] max-h-[487]">
       <img
         src={video}
         alt="Course video"
         className="w-full h-full object-cover"
       />
-      <button className="absolute inset-0 flex items-center justify-center group">
-        <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-          <Play className="w-10 h-10 text-primary ml-1" fill="currentColor" />
+      {/* Black overlay */}
+      <div className="absolute inset-0 bg-black/40"></div>
+      
+      <button className="absolute inset-0 flex items-center justify-center group z-10">
+        <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+          <Play className="w-7 h-7 text-primary ml-1" fill="currentColor" />
         </div>
       </button>
     </div>

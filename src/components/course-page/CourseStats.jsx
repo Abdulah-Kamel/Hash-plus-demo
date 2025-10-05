@@ -10,17 +10,17 @@ const CourseStats = () => {
   ];
 
   return (
-    <div className="mt-12 text-right">
-      <h2 className="text-2xl font-bold text-gray-900 mb-6">الدورة في أرقام</h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="mt-6 text-right">
+      <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-4">الدورة في أرقام</h2>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {stats.map((stat) => {
           const Icon = stat.icon;
           return (
-            <div key={stat.id} className="bg-[#33E2BD0D] rounded-xl p-6 text-center">
-              <div className={`w-12 h-12 ${stat.color} rounded-xl flex items-center justify-center mx-auto mb-3`}>
-                <Icon className="w-6 h-6 text-white" fill="currentColor" />
+            <div key={stat.id} className="bg-[#33E2BD0D] rounded-xl p-4 text-center">
+              <div className={`w-10 h-10 ${stat.color} rounded-xl flex items-center justify-center mx-auto mb-2`}>
+                <Icon className="w-5 h-5 text-white" fill="currentColor" />
               </div>
-              <p className="text-sm sm:text-xl text-gray-900 mb-1">{stat.label}</p>
+              <p className="text-xs sm:text-base text-gray-900">{stat.label}</p>
             </div>
           );
         })}

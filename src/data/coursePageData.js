@@ -1,4 +1,4 @@
-import courseVideo from "../assets/course1.png";
+import courseVideo from "../assets/course_video.jpg";
 
 export const courseHeroData = {
   title: 'دورة JavaScript',

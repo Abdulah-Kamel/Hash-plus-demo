@@ -10,13 +10,13 @@ const CourseTabs = () => {
   ];
 
   return (
-    <div className="border-b border-gray-200 mb-8">
-      <ul className="flex flex-wrap justify-start gap-4 -mb-px text-sm font-medium text-center">
+    <div className="border-b border-gray-200 mb-4">
+      <ul className="flex flex-wrap justify-start gap-2 -mb-px text-xs sm:text-sm font-medium text-center">
         {tabs.map((tab) => (
           <li key={tab.id}>
             <a
               href="#"
-              className={`inline-block px-6 py-3 border-b-2 transition-colors ${
+              className={`inline-block px-3 sm:px-4 py-2 border-b-2 transition-colors ${
                 tab.active
                   ? 'text-primary border-primary'
                   : 'text-gray-500 border-transparent hover:border-primary hover:text-primary'
